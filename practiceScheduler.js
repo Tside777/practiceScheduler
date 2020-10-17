@@ -14,15 +14,15 @@ class Schedule {
     trivialSchedule() {
         $('#schedule').append(`<h3>Technique</h3>
                         <ul>
-                            <li>${this.technique[0]} for 20 minutes</li>
+                            <li>${this.technique} for 20 minutes</li>
                         </ul>
                         <h3>Repertoire</h3>
                         <ul>
-                            <li>${this.repertoire[0]} for 20 minutes</li>
+                            <li>${this.repertoire} for 20 minutes</li>
                         </ul>                      
                         <h3>Improv</h3>
                         <ul>
-                            <li>${this.improv[0]} for 20 minutes</li>
+                            <li>${this.improv} for 20 minutes</li>
                         </ul>`);
 
     }
