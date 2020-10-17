@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dodge the bad stuff</title>
+        <link rel="stylesheet" href="dodge.css" type="text/css">
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    </head>
+    <body>
+        <div id="generationForm">
+            <button id="generateSchedule">Generate</button>
+        <br>
+            <input type="text" id="tech">
+            <button type="submit" id="addTech">Add to Technique</button>
+        <br>
+            <input type="text" id="rep">
+            <button type="submit" id="addRep">Add to Repertoire</button>
+        <br>
+            <input type="text" id="improv">
+            <button type="submit" id="addImprov">Add to improv</button>
+        </div>
+
+        <div id="poolOfEverything">
+            <h3>Technique Pool</h3>
+                <ul id="techList"></ul>
+            <h3>Repertoire Pool</h3>
+                <ul id="repList"></ul>
+            <h3>Improv Pool</h3>
+                <ul id="impList"></ul>
+        </div>
+
+
+        <div id="schedule"></div>
+
+
+
+        <script type='text/javascript' src="practiceScheduler.js"></script>
+    </body>
